@@ -1,0 +1,62 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AppCenter/Analytics (1.11.0):
+    - AppCenter/Core
+  - AppCenter/Core (1.11.0)
+  - AppCenter/Crashes (1.11.0):
+    - AppCenter/Core
+  - AppCenterReactNativeShared (1.10.0):
+    - AppCenter/Core (= 1.11.0)
+  - FLKAutoLayout (0.2.1)
+  - ORStackView (3.0.1):
+    - FLKAutoLayout (~> 0.2)
+  - SwiftyJSON (2.4.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6)
+  - AppCenter/Analytics (~> 1.11.0)
+  - AppCenter/Crashes (~> 1.11.0)
+  - AppCenterReactNativeShared (~> 1.10.0)
+  - ORStackView (~> 3.0)
+  - SwiftyJSON (~> 2.3)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AppCenter
+    - AppCenterReactNativeShared
+    - FLKAutoLayout
+    - ORStackView
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AppCenter: 3bccf8d733e337d0db574dd4cb0e33ab9637b7f2
+  AppCenterReactNativeShared: a77b000c2ac6dc2e44472621d7d0770f196e5822
+  FLKAutoLayout: 9db6b30c2008d230da608e62c607b11c23b942e6
+  ORStackView: a1bb52748cd0ae29891c140baf22ff8972fb363c
+  SwiftyJSON: 96918c1bf505efa50c4f72957018dd3452090c9c
+
+PODFILE CHECKSUM: 859c5c3f52907a9bc1fc91797d3b2d5648760249
+
+COCOAPODS: 1.5.3

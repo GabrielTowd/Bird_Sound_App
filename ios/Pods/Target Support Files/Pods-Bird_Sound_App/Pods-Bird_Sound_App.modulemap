@@ -1,0 +1,6 @@
+module Pods_Bird_Sound_App {
+  umbrella header "Pods-Bird_Sound_App-umbrella.h"
+
+  export *
+  module * { export * }
+}

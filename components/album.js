@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Dimensions, View, Image, TouchableOpacity } from 'react-native';
+import { StyleSheet, Dimensions, View, Image, TouchableOpacity, Text } from 'react-native';
 import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
 
 const deviceWidth = Dimensions.get("window").width;
@@ -17,10 +17,19 @@ const styles = StyleSheet.create({
     width: deviceWidth -80,
     height: deviceWidth -80,
     borderRadius : 15,
+  },
+  slide: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   }
 })
 
 export default class Album extends Component {
+  constructor(props){
+    super(props)
+  }
+  
   onSwipeLeft() {
     this.props.nextSound();
   }
@@ -31,16 +40,16 @@ export default class Album extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
+      <View style={styles.slide}>
         <GestureRecognizer
           onSwipeLeft={() => this.onSwipeLeft()}
           onSwipeRight={() => this.onSwipeRight()}
         >
-          <Image
-            style={styles.image}
-            source={{uri : this.props.url}}
-            resizeMode="cover"
-          />
+            <Image
+              style={styles.image}
+              source={{uri : this.props.albumCover}}
+              resizeMode="cover"
+            />
         </GestureRecognizer>
       </View>
     )

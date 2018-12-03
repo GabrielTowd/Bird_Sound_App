@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -13,7 +12,10 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* Bird_Sound_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Bird_Sound_AppTests.m */; };
+		02B8F359F5694FEDAC791A05 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AEB2BCD45B5421B91187BB3 /* AppCenter-Config.plist */; };
 		050E39B309B5470F9E7C7340 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 700CD83A84544E58AB85A2E7 /* SimpleLineIcons.ttf */; };
+		0F27D45921958FAC00D35040 /* paon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F27D43021958FAB00D35040 /* paon.jpg */; };
+		0F27D45C2195904D00D35040 /* little_bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F27D45B2195904D00D35040 /* little_bird.jpg */; };
 		0F5335FE2190EF08003E8E11 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F5335EF2190EF08003E8E11 /* Octicons.ttf */; };
 		0F5335FF2190EF08003E8E11 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F5335F02190EF08003E8E11 /* Feather.ttf */; };
 		0F5336002190EF08003E8E11 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F5335F12190EF08003E8E11 /* Entypo.ttf */; };
@@ -32,6 +34,52 @@
 		0F53364D2190F740003E8E11 /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F53364C2190F718003E8E11 /* libRNSound.a */; };
 		0F53364E2190F750003E8E11 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5335EB2190EE63003E8E11 /* libRNVectorIcons.a */; };
 		0F5336502190F8FB003E8E11 /* paon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F53364F2190F8FB003E8E11 /* paon.mp3 */; };
+		0F9A992D21B56553004A1648 /* eurylaime_a_capuchon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A991621B5654F004A1648 /* eurylaime_a_capuchon.mp3 */; };
+		0F9A992E21B56553004A1648 /* barbican_a_collier.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A991721B5654F004A1648 /* barbican_a_collier.mp3 */; };
+		0F9A992F21B56553004A1648 /* courlis_a_long_bec.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A991821B5654F004A1648 /* courlis_a_long_bec.mp3 */; };
+		0F9A993021B56553004A1648 /* pigeon_roussard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A991921B56550004A1648 /* pigeon_roussard.mp3 */; };
+		0F9A993121B56553004A1648 /* quiscale_rouilleux.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A991A21B56550004A1648 /* quiscale_rouilleux.mp3 */; };
+		0F9A993221B56553004A1648 /* alouette_hausse_col.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A991B21B56550004A1648 /* alouette_hausse_col.mp3 */; };
+		0F9A993321B56553004A1648 /* souimanga_à_gorge_rouge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A991C21B56550004A1648 /* souimanga_à_gorge_rouge.mp3 */; };
+		0F9A993421B56553004A1648 /* colibri_de_loddiges.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A991D21B56550004A1648 /* colibri_de_loddiges.mp3 */; };
+		0F9A993521B56553004A1648 /* timalie_aux_yeux_d_or.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A991E21B56550004A1648 /* timalie_aux_yeux_d_or.mp3 */; };
+		0F9A993621B56553004A1648 /* toucan_bleu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A991F21B56551004A1648 /* toucan_bleu.mp3 */; };
+		0F9A993721B56553004A1648 /* heron_strie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A992021B56551004A1648 /* heron_strie.mp3 */; };
+		0F9A993821B56553004A1648 /* epervier_brun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A992121B56551004A1648 /* epervier_brun.mp3 */; };
+		0F9A993921B56553004A1648 /* tyranneau_des_palétuviers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A992221B56551004A1648 /* tyranneau_des_palétuviers.mp3 */; };
+		0F9A993A21B56553004A1648 /* pie_grieche_à_bandeau.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A992321B56551004A1648 /* pie_grieche_à_bandeau.mp3 */; };
+		0F9A993B21B56553004A1648 /* gonolek_boubou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A992421B56551004A1648 /* gonolek_boubou.mp3 */; };
+		0F9A993C21B56553004A1648 /* tyran_pitangua.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A992521B56551004A1648 /* tyran_pitangua.mp3 */; };
+		0F9A993D21B56553004A1648 /* hirondelle_a_diademe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A992621B56552004A1648 /* hirondelle_a_diademe.mp3 */; };
+		0F9A993E21B56553004A1648 /* grue_de_paradis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A992721B56552004A1648 /* grue_de_paradis.mp3 */; };
+		0F9A993F21B56553004A1648 /* cubla_boule_de_neige.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A992821B56552004A1648 /* cubla_boule_de_neige.mp3 */; };
+		0F9A994021B56553004A1648 /* pipit_d_amerique.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A992921B56552004A1648 /* pipit_d_amerique.mp3 */; };
+		0F9A994121B56553004A1648 /* œdicneme_vermicule.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A992A21B56552004A1648 /* œdicneme_vermicule.mp3 */; };
+		0F9A994221B56553004A1648 /* rale_des_genets.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A992B21B56552004A1648 /* rale_des_genets.mp3 */; };
+		0F9A994321B56553004A1648 /* souimanga_a_ventre_blanc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A992C21B56552004A1648 /* souimanga_a_ventre_blanc.mp3 */; };
+		0F9A995B21B56560004A1648 /* gonolek_boubou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A994421B5655D004A1648 /* gonolek_boubou.jpg */; };
+		0F9A995C21B56560004A1648 /* hirondelle_à_diadème.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A994521B5655D004A1648 /* hirondelle_à_diadème.jpg */; };
+		0F9A995D21B56560004A1648 /* barbican_à_collier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A994621B5655E004A1648 /* barbican_à_collier.jpg */; };
+		0F9A995E21B56560004A1648 /* souimanga_à_gorge_rouge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A994721B5655E004A1648 /* souimanga_à_gorge_rouge.jpg */; };
+		0F9A995F21B56560004A1648 /* souimanga_à_ventre_blanc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A994821B5655E004A1648 /* souimanga_à_ventre_blanc.jpg */; };
+		0F9A996021B56560004A1648 /* toucan_bleu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A994921B5655E004A1648 /* toucan_bleu.jpg */; };
+		0F9A996121B56560004A1648 /* pie_grièche_à_bandeau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A994A21B5655E004A1648 /* pie_grièche_à_bandeau.jpg */; };
+		0F9A996221B56560004A1648 /* colibri_de_loddiges.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A994B21B5655E004A1648 /* colibri_de_loddiges.jpg */; };
+		0F9A996321B56560004A1648 /* tyranneau_des_palétuviers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A994C21B5655E004A1648 /* tyranneau_des_palétuviers.jpg */; };
+		0F9A996421B56560004A1648 /* tyran_pitangua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A994D21B5655E004A1648 /* tyran_pitangua.jpg */; };
+		0F9A996521B56560004A1648 /* pipit_d_amérique.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A994E21B5655F004A1648 /* pipit_d_amérique.jpg */; };
+		0F9A996621B56560004A1648 /* râle_des_genêts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A994F21B5655F004A1648 /* râle_des_genêts.jpg */; };
+		0F9A996721B56560004A1648 /* timalie_aux_yeux_d_or.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A995021B5655F004A1648 /* timalie_aux_yeux_d_or.jpg */; };
+		0F9A996821B56560004A1648 /* eurylaime_à_capuchon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A995121B5655F004A1648 /* eurylaime_à_capuchon.jpg */; };
+		0F9A996921B56560004A1648 /* courlis_à_long_bec.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A995221B5655F004A1648 /* courlis_à_long_bec.jpg */; };
+		0F9A996A21B56560004A1648 /* œdicnème_vermiculé.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A995321B5655F004A1648 /* œdicnème_vermiculé.jpg */; };
+		0F9A996B21B56560004A1648 /* cubla_boule_de_neige.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A995421B5655F004A1648 /* cubla_boule_de_neige.jpg */; };
+		0F9A996C21B56560004A1648 /* alouette_hausse_col.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A995521B5655F004A1648 /* alouette_hausse_col.jpg */; };
+		0F9A996D21B56560004A1648 /* epervier_brun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A995621B56560004A1648 /* epervier_brun.jpg */; };
+		0F9A996E21B56560004A1648 /* héron_strié.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A995721B56560004A1648 /* héron_strié.jpg */; };
+		0F9A996F21B56560004A1648 /* quiscale_rouilleux.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A995821B56560004A1648 /* quiscale_rouilleux.jpg */; };
+		0F9A997021B56560004A1648 /* pigeon_roussard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A995921B56560004A1648 /* pigeon_roussard.jpg */; };
+		0F9A997121B56560004A1648 /* grue_de_paradis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A995A21B56560004A1648 /* grue_de_paradis.jpg */; };
 		0FAD9D8E219357AE00F11972 /* little_bird.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0FAD9D8D219357AE00F11972 /* little_bird.mp3 */; };
 		11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
@@ -43,6 +91,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		165402D5CACB496C9C8A67C7 /* libAppCenterReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC56558A46EB42639B1ED61C /* libAppCenterReactNative.a */; };
 		1D33E892F4694B2B9E776659 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9A13FE0168B4A74A362A0AE /* FontAwesome5_Brands.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -61,17 +110,21 @@
 		32DE7FCB8E0B4E5AA2241651 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2867B66C908D46D5900FC336 /* Zocial.ttf */; };
 		5522B5654C3C431EA5083B94 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BCE485C22C94B8DBC66D84A /* FontAwesome5_Solid.ttf */; };
 		5C468CC288B34021938DE3AB /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54A7387CC98C4EBD99D7E6EF /* Feather.ttf */; };
+		5EAD6B8A853547878D20ED82 /* libRNSoundPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D42D518851824F06A06CBA72 /* libRNSoundPlayer.a */; };
 		69BCE356AEC046BF84EDC38C /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69E6781D04DF463F8E8515CA /* FontAwesome.ttf */; };
+		79B4F86AB7C24EF5BCEF508F /* libAppCenterReactNativeAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2815B73EDC4D1E9A7649B1 /* libAppCenterReactNativeAnalytics.a */; };
 		7EE97A6B90AE47DC9CA1CDC0 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 582E00C79A19409582E0227C /* Foundation.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		8F0E4EE2FA204487A929F1B5 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3DF18000A834753AC7D6C42 /* AntDesign.ttf */; };
 		A1B249CFC882491CBE0E3BE7 /* libRNVectorIcons-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CADB6ADEB74CBBB847DE95 /* libRNVectorIcons-tvOS.a */; };
 		A23FA3CD798946DB86B296B5 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3342EE25382E40139F8221C3 /* MaterialCommunityIcons.ttf */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		CD5D83D5F16F44879E23DF16 /* libAppCenterReactNativeCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0A306A5CB84A2A9AF752E4 /* libAppCenterReactNativeCrashes.a */; };
 		CE02ABAA8F8F43F5B60D7D7D /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0253B1651FD4447E9E804C72 /* FontAwesome5_Regular.ttf */; };
 		D7EEF2353CC34BEC9A94AFE2 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB5B99E702494D79B73B27CE /* MaterialIcons.ttf */; };
 		E67B3938DCA044EA86D63C0B /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 276B7BB5C29C494A9DA774B6 /* Octicons.ttf */; };
 		EAF3D5D52CE04FA3A8469194 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FEAAA185016479781D81529 /* Ionicons.ttf */; };
+		EE017D7C734EA070B577C134 /* libPods-Bird_Sound_App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F18A28DB87EEE27CE937AB6 /* libPods-Bird_Sound_App.a */; };
 		FA3183C293604722A8C2FE52 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBCC44E7627E47B3A8C70452 /* Entypo.ttf */; };
 /* End PBXBuildFile section */
 
@@ -138,6 +191,34 @@
 			proxyType = 2;
 			remoteGlobalIDString = 19825A1E1BD4A89800EE0337;
 			remoteInfo = RNSound;
+		};
+		0F9A99AB21B569DA004A1648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D0FEC2BB2547219E5B4A32 /* AppCenterReactNative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C35AEC211EF91F9300931F0C;
+			remoteInfo = AppCenterReactNative;
+		};
+		0F9A99E821B569EA004A1648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AD1C69FD9864369BDF34632 /* AppCenterReactNativeAnalytics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 548694001D8384E600E6685A;
+			remoteInfo = AppCenterReactNativeAnalytics;
+		};
+		0F9A99FF21B569FC004A1648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B203877FD3442E89A597394 /* AppCenterReactNativeCrashes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5419C2701D824AA700DDF3A1;
+			remoteInfo = AppCenterReactNativeCrashes;
+		};
+		0F9A9A6821B56ACF004A1648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13DE9FBB9B1C4FBFB8633067 /* RNSoundPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNSoundPlayer;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -384,6 +465,9 @@
 		00E356F21AD99517003FC87E /* Bird_Sound_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bird_Sound_AppTests.m; sourceTree = "<group>"; };
 		0253B1651FD4447E9E804C72 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		0673DBA3F0194EEF80520720 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
+		0AD1C69FD9864369BDF34632 /* AppCenterReactNativeAnalytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeAnalytics.xcodeproj; path = "../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics.xcodeproj"; sourceTree = "<group>"; };
+		0F27D43021958FAB00D35040 /* paon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paon.jpg; sourceTree = "<group>"; };
+		0F27D45B2195904D00D35040 /* little_bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = little_bird.jpg; path = ../assets/little_bird.jpg; sourceTree = "<group>"; };
 		0F5335EF2190EF08003E8E11 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
 		0F5335F02190EF08003E8E11 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
 		0F5335F12190EF08003E8E11 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
@@ -401,6 +485,53 @@
 		0F5335FD2190EF08003E8E11 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
 		0F5336472190F718003E8E11 /* RNSound.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNSound.xcodeproj; path = "../node_modules/react-native-sound/RNSound.xcodeproj"; sourceTree = "<group>"; };
 		0F53364F2190F8FB003E8E11 /* paon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = paon.mp3; sourceTree = "<group>"; };
+		0F9A991621B5654F004A1648 /* eurylaime_a_capuchon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = eurylaime_a_capuchon.mp3; path = ../assets/music/eurylaime_a_capuchon.mp3; sourceTree = "<group>"; };
+		0F9A991721B5654F004A1648 /* barbican_a_collier.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = barbican_a_collier.mp3; path = ../assets/music/barbican_a_collier.mp3; sourceTree = "<group>"; };
+		0F9A991821B5654F004A1648 /* courlis_a_long_bec.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = courlis_a_long_bec.mp3; path = ../assets/music/courlis_a_long_bec.mp3; sourceTree = "<group>"; };
+		0F9A991921B56550004A1648 /* pigeon_roussard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pigeon_roussard.mp3; path = ../assets/music/pigeon_roussard.mp3; sourceTree = "<group>"; };
+		0F9A991A21B56550004A1648 /* quiscale_rouilleux.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = quiscale_rouilleux.mp3; path = ../assets/music/quiscale_rouilleux.mp3; sourceTree = "<group>"; };
+		0F9A991B21B56550004A1648 /* alouette_hausse_col.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alouette_hausse_col.mp3; path = ../assets/music/alouette_hausse_col.mp3; sourceTree = "<group>"; };
+		0F9A991C21B56550004A1648 /* souimanga_à_gorge_rouge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "souimanga_à_gorge_rouge.mp3"; path = "../assets/music/souimanga_à_gorge_rouge.mp3"; sourceTree = "<group>"; };
+		0F9A991D21B56550004A1648 /* colibri_de_loddiges.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = colibri_de_loddiges.mp3; path = ../assets/music/colibri_de_loddiges.mp3; sourceTree = "<group>"; };
+		0F9A991E21B56550004A1648 /* timalie_aux_yeux_d_or.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = timalie_aux_yeux_d_or.mp3; path = ../assets/music/timalie_aux_yeux_d_or.mp3; sourceTree = "<group>"; };
+		0F9A991F21B56551004A1648 /* toucan_bleu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = toucan_bleu.mp3; path = ../assets/music/toucan_bleu.mp3; sourceTree = "<group>"; };
+		0F9A992021B56551004A1648 /* heron_strie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = heron_strie.mp3; path = ../assets/music/heron_strie.mp3; sourceTree = "<group>"; };
+		0F9A992121B56551004A1648 /* epervier_brun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = epervier_brun.mp3; path = ../assets/music/epervier_brun.mp3; sourceTree = "<group>"; };
+		0F9A992221B56551004A1648 /* tyranneau_des_palétuviers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "tyranneau_des_palétuviers.mp3"; path = "../assets/music/tyranneau_des_palétuviers.mp3"; sourceTree = "<group>"; };
+		0F9A992321B56551004A1648 /* pie_grieche_à_bandeau.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "pie_grieche_à_bandeau.mp3"; path = "../assets/music/pie_grieche_à_bandeau.mp3"; sourceTree = "<group>"; };
+		0F9A992421B56551004A1648 /* gonolek_boubou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gonolek_boubou.mp3; path = ../assets/music/gonolek_boubou.mp3; sourceTree = "<group>"; };
+		0F9A992521B56551004A1648 /* tyran_pitangua.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = tyran_pitangua.mp3; path = ../assets/music/tyran_pitangua.mp3; sourceTree = "<group>"; };
+		0F9A992621B56552004A1648 /* hirondelle_a_diademe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hirondelle_a_diademe.mp3; path = ../assets/music/hirondelle_a_diademe.mp3; sourceTree = "<group>"; };
+		0F9A992721B56552004A1648 /* grue_de_paradis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = grue_de_paradis.mp3; path = ../assets/music/grue_de_paradis.mp3; sourceTree = "<group>"; };
+		0F9A992821B56552004A1648 /* cubla_boule_de_neige.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cubla_boule_de_neige.mp3; path = ../assets/music/cubla_boule_de_neige.mp3; sourceTree = "<group>"; };
+		0F9A992921B56552004A1648 /* pipit_d_amerique.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pipit_d_amerique.mp3; path = ../assets/music/pipit_d_amerique.mp3; sourceTree = "<group>"; };
+		0F9A992A21B56552004A1648 /* œdicneme_vermicule.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "œdicneme_vermicule.mp3"; path = "../assets/music/œdicneme_vermicule.mp3"; sourceTree = "<group>"; };
+		0F9A992B21B56552004A1648 /* rale_des_genets.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rale_des_genets.mp3; path = ../assets/music/rale_des_genets.mp3; sourceTree = "<group>"; };
+		0F9A992C21B56552004A1648 /* souimanga_a_ventre_blanc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = souimanga_a_ventre_blanc.mp3; path = ../assets/music/souimanga_a_ventre_blanc.mp3; sourceTree = "<group>"; };
+		0F9A994421B5655D004A1648 /* gonolek_boubou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gonolek_boubou.jpg; path = ../assets/img/gonolek_boubou.jpg; sourceTree = "<group>"; };
+		0F9A994521B5655D004A1648 /* hirondelle_à_diadème.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hirondelle_à_diadème.jpg"; path = "../assets/img/hirondelle_à_diadème.jpg"; sourceTree = "<group>"; };
+		0F9A994621B5655E004A1648 /* barbican_à_collier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "barbican_à_collier.jpg"; path = "../assets/img/barbican_à_collier.jpg"; sourceTree = "<group>"; };
+		0F9A994721B5655E004A1648 /* souimanga_à_gorge_rouge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "souimanga_à_gorge_rouge.jpg"; path = "../assets/img/souimanga_à_gorge_rouge.jpg"; sourceTree = "<group>"; };
+		0F9A994821B5655E004A1648 /* souimanga_à_ventre_blanc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "souimanga_à_ventre_blanc.jpg"; path = "../assets/img/souimanga_à_ventre_blanc.jpg"; sourceTree = "<group>"; };
+		0F9A994921B5655E004A1648 /* toucan_bleu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = toucan_bleu.jpg; path = ../assets/img/toucan_bleu.jpg; sourceTree = "<group>"; };
+		0F9A994A21B5655E004A1648 /* pie_grièche_à_bandeau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pie_grièche_à_bandeau.jpg"; path = "../assets/img/pie_grièche_à_bandeau.jpg"; sourceTree = "<group>"; };
+		0F9A994B21B5655E004A1648 /* colibri_de_loddiges.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = colibri_de_loddiges.jpg; path = ../assets/img/colibri_de_loddiges.jpg; sourceTree = "<group>"; };
+		0F9A994C21B5655E004A1648 /* tyranneau_des_palétuviers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tyranneau_des_palétuviers.jpg"; path = "../assets/img/tyranneau_des_palétuviers.jpg"; sourceTree = "<group>"; };
+		0F9A994D21B5655E004A1648 /* tyran_pitangua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tyran_pitangua.jpg; path = ../assets/img/tyran_pitangua.jpg; sourceTree = "<group>"; };
+		0F9A994E21B5655F004A1648 /* pipit_d_amérique.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pipit_d_amérique.jpg"; path = "../assets/img/pipit_d_amérique.jpg"; sourceTree = "<group>"; };
+		0F9A994F21B5655F004A1648 /* râle_des_genêts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "râle_des_genêts.jpg"; path = "../assets/img/râle_des_genêts.jpg"; sourceTree = "<group>"; };
+		0F9A995021B5655F004A1648 /* timalie_aux_yeux_d_or.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = timalie_aux_yeux_d_or.jpg; path = ../assets/img/timalie_aux_yeux_d_or.jpg; sourceTree = "<group>"; };
+		0F9A995121B5655F004A1648 /* eurylaime_à_capuchon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "eurylaime_à_capuchon.jpg"; path = "../assets/img/eurylaime_à_capuchon.jpg"; sourceTree = "<group>"; };
+		0F9A995221B5655F004A1648 /* courlis_à_long_bec.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "courlis_à_long_bec.jpg"; path = "../assets/img/courlis_à_long_bec.jpg"; sourceTree = "<group>"; };
+		0F9A995321B5655F004A1648 /* œdicnème_vermiculé.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "œdicnème_vermiculé.jpg"; path = "../assets/img/œdicnème_vermiculé.jpg"; sourceTree = "<group>"; };
+		0F9A995421B5655F004A1648 /* cubla_boule_de_neige.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cubla_boule_de_neige.jpg; path = ../assets/img/cubla_boule_de_neige.jpg; sourceTree = "<group>"; };
+		0F9A995521B5655F004A1648 /* alouette_hausse_col.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = alouette_hausse_col.jpg; path = ../assets/img/alouette_hausse_col.jpg; sourceTree = "<group>"; };
+		0F9A995621B56560004A1648 /* epervier_brun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = epervier_brun.jpg; path = ../assets/img/epervier_brun.jpg; sourceTree = "<group>"; };
+		0F9A995721B56560004A1648 /* héron_strié.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "héron_strié.jpg"; path = "../assets/img/héron_strié.jpg"; sourceTree = "<group>"; };
+		0F9A995821B56560004A1648 /* quiscale_rouilleux.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = quiscale_rouilleux.jpg; path = ../assets/img/quiscale_rouilleux.jpg; sourceTree = "<group>"; };
+		0F9A995921B56560004A1648 /* pigeon_roussard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pigeon_roussard.jpg; path = ../assets/img/pigeon_roussard.jpg; sourceTree = "<group>"; };
+		0F9A995A21B56560004A1648 /* grue_de_paradis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grue_de_paradis.jpg; path = ../assets/img/grue_de_paradis.jpg; sourceTree = "<group>"; };
+		0F9A9A7C21B56BD5004A1648 /* Bird_Sound_App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bird_Sound_App-Bridging-Header.h"; sourceTree = "<group>"; };
 		0FAD9D8D219357AE00F11972 /* little_bird.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = little_bird.mp3; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
@@ -411,7 +542,10 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Bird_Sound_App/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Bird_Sound_App/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Bird_Sound_App/main.m; sourceTree = "<group>"; };
+		13DE9FBB9B1C4FBFB8633067 /* RNSoundPlayer.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNSoundPlayer.xcodeproj; path = "../node_modules/react-native-sound-player/ios/RNSoundPlayer.xcodeproj"; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		1B203877FD3442E89A597394 /* AppCenterReactNativeCrashes.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeCrashes.xcodeproj; path = "../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes.xcodeproj"; sourceTree = "<group>"; };
+		1B2815B73EDC4D1E9A7649B1 /* libAppCenterReactNativeAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativeAnalytics.a; sourceTree = "<group>"; };
 		276B7BB5C29C494A9DA774B6 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		2867B66C908D46D5900FC336 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* Bird_Sound_App-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bird_Sound_App-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -421,20 +555,28 @@
 		3FEAAA185016479781D81529 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		54A7387CC98C4EBD99D7E6EF /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		582E00C79A19409582E0227C /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		5AEB2BCD45B5421B91187BB3 /* AppCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "Bird_Sound_App/AppCenter-Config.plist"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		69E6781D04DF463F8E8515CA /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		6F18A28DB87EEE27CE937AB6 /* libPods-Bird_Sound_App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bird_Sound_App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		700CD83A84544E58AB85A2E7 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		72ADD90FF8B9423AA3C298E5 /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		84AA319AD128BDDE123D8F1C /* Pods-Bird_Sound_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bird_Sound_App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bird_Sound_App/Pods-Bird_Sound_App.release.xcconfig"; sourceTree = "<group>"; };
 		9BCE485C22C94B8DBC66D84A /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		A9A13FE0168B4A74A362A0AE /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		B154124D9169A1B8A2A87F90 /* Pods-Bird_Sound_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bird_Sound_App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bird_Sound_App/Pods-Bird_Sound_App.debug.xcconfig"; sourceTree = "<group>"; };
+		BC56558A46EB42639B1ED61C /* libAppCenterReactNative.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNative.a; sourceTree = "<group>"; };
 		CB5B99E702494D79B73B27CE /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		CBCC44E7627E47B3A8C70452 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		D42D518851824F06A06CBA72 /* libRNSoundPlayer.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSoundPlayer.a; sourceTree = "<group>"; };
 		D4CADB6ADEB74CBBB847DE95 /* libRNVectorIcons-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNVectorIcons-tvOS.a"; sourceTree = "<group>"; };
+		D8D0FEC2BB2547219E5B4A32 /* AppCenterReactNative.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNative.xcodeproj; path = ../node_modules/appcenter/ios/AppCenterReactNative.xcodeproj; sourceTree = "<group>"; };
 		EA04A6488DDD4CC5AF53C1A4 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		F3DF18000A834753AC7D6C42 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		FA0A306A5CB84A2A9AF752E4 /* libAppCenterReactNativeCrashes.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativeCrashes.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -464,6 +606,11 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				165402D5CACB496C9C8A67C7 /* libAppCenterReactNative.a in Frameworks */,
+				79B4F86AB7C24EF5BCEF508F /* libAppCenterReactNativeAnalytics.a in Frameworks */,
+				CD5D83D5F16F44879E23DF16 /* libAppCenterReactNativeCrashes.a in Frameworks */,
+				5EAD6B8A853547878D20ED82 /* libRNSoundPlayer.a in Frameworks */,
+				EE017D7C734EA070B577C134 /* libPods-Bird_Sound_App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,11 +722,22 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		0F27D45A21958FD400D35040 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Img;
+			sourceTree = "<group>";
+		};
 		0F5335C02190EE61003E8E11 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
 				72ADD90FF8B9423AA3C298E5 /* libRNVectorIcons.a */,
 				D4CADB6ADEB74CBBB847DE95 /* libRNVectorIcons-tvOS.a */,
+				BC56558A46EB42639B1ED61C /* libAppCenterReactNative.a */,
+				1B2815B73EDC4D1E9A7649B1 /* libAppCenterReactNativeAnalytics.a */,
+				FA0A306A5CB84A2A9AF752E4 /* libAppCenterReactNativeCrashes.a */,
+				D42D518851824F06A06CBA72 /* libRNSoundPlayer.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -620,6 +778,38 @@
 			isa = PBXGroup;
 			children = (
 				0F53364C2190F718003E8E11 /* libRNSound.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F9A99A821B569DA004A1648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F9A99AC21B569DA004A1648 /* libAppCenterReactNative.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F9A99E521B569EA004A1648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F9A99E921B569EA004A1648 /* libAppCenterReactNativeAnalytics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F9A99FA21B569FC004A1648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F9A9A0021B569FC004A1648 /* libAppCenterReactNativeCrashes.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F9A9A6521B56ACF004A1648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F9A9A6921B56ACF004A1648 /* libRNSoundPlayer.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -692,6 +882,7 @@
 			isa = PBXGroup;
 			children = (
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				6F18A28DB87EEE27CE937AB6 /* libPods-Bird_Sound_App.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -731,6 +922,10 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				0673DBA3F0194EEF80520720 /* RNVectorIcons.xcodeproj */,
+				D8D0FEC2BB2547219E5B4A32 /* AppCenterReactNative.xcodeproj */,
+				0AD1C69FD9864369BDF34632 /* AppCenterReactNativeAnalytics.xcodeproj */,
+				1B203877FD3442E89A597394 /* AppCenterReactNativeCrashes.xcodeproj */,
+				13DE9FBB9B1C4FBFB8633067 /* RNSoundPlayer.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -747,6 +942,55 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				0F9A995521B5655F004A1648 /* alouette_hausse_col.jpg */,
+				0F9A994621B5655E004A1648 /* barbican_à_collier.jpg */,
+				0F9A994B21B5655E004A1648 /* colibri_de_loddiges.jpg */,
+				0F9A995221B5655F004A1648 /* courlis_à_long_bec.jpg */,
+				0F9A995421B5655F004A1648 /* cubla_boule_de_neige.jpg */,
+				0F9A995621B56560004A1648 /* epervier_brun.jpg */,
+				0F9A995121B5655F004A1648 /* eurylaime_à_capuchon.jpg */,
+				0F9A994421B5655D004A1648 /* gonolek_boubou.jpg */,
+				0F9A995A21B56560004A1648 /* grue_de_paradis.jpg */,
+				0F9A995721B56560004A1648 /* héron_strié.jpg */,
+				0F9A994521B5655D004A1648 /* hirondelle_à_diadème.jpg */,
+				0F9A995321B5655F004A1648 /* œdicnème_vermiculé.jpg */,
+				0F9A994A21B5655E004A1648 /* pie_grièche_à_bandeau.jpg */,
+				0F9A995921B56560004A1648 /* pigeon_roussard.jpg */,
+				0F9A994E21B5655F004A1648 /* pipit_d_amérique.jpg */,
+				0F9A995821B56560004A1648 /* quiscale_rouilleux.jpg */,
+				0F9A994F21B5655F004A1648 /* râle_des_genêts.jpg */,
+				0F9A994721B5655E004A1648 /* souimanga_à_gorge_rouge.jpg */,
+				0F9A994821B5655E004A1648 /* souimanga_à_ventre_blanc.jpg */,
+				0F9A995021B5655F004A1648 /* timalie_aux_yeux_d_or.jpg */,
+				0F9A994921B5655E004A1648 /* toucan_bleu.jpg */,
+				0F9A994D21B5655E004A1648 /* tyran_pitangua.jpg */,
+				0F9A994C21B5655E004A1648 /* tyranneau_des_palétuviers.jpg */,
+				0F9A991B21B56550004A1648 /* alouette_hausse_col.mp3 */,
+				0F9A991721B5654F004A1648 /* barbican_a_collier.mp3 */,
+				0F9A991D21B56550004A1648 /* colibri_de_loddiges.mp3 */,
+				0F9A991821B5654F004A1648 /* courlis_a_long_bec.mp3 */,
+				0F9A992821B56552004A1648 /* cubla_boule_de_neige.mp3 */,
+				0F9A992121B56551004A1648 /* epervier_brun.mp3 */,
+				0F9A991621B5654F004A1648 /* eurylaime_a_capuchon.mp3 */,
+				0F9A992421B56551004A1648 /* gonolek_boubou.mp3 */,
+				0F9A992721B56552004A1648 /* grue_de_paradis.mp3 */,
+				0F9A992021B56551004A1648 /* heron_strie.mp3 */,
+				0F9A992621B56552004A1648 /* hirondelle_a_diademe.mp3 */,
+				0F9A992A21B56552004A1648 /* œdicneme_vermicule.mp3 */,
+				0F9A992321B56551004A1648 /* pie_grieche_à_bandeau.mp3 */,
+				0F9A991921B56550004A1648 /* pigeon_roussard.mp3 */,
+				0F9A992921B56552004A1648 /* pipit_d_amerique.mp3 */,
+				0F9A991A21B56550004A1648 /* quiscale_rouilleux.mp3 */,
+				0F9A992B21B56552004A1648 /* rale_des_genets.mp3 */,
+				0F9A991C21B56550004A1648 /* souimanga_à_gorge_rouge.mp3 */,
+				0F9A992C21B56552004A1648 /* souimanga_a_ventre_blanc.mp3 */,
+				0F9A991E21B56550004A1648 /* timalie_aux_yeux_d_or.mp3 */,
+				0F9A991F21B56551004A1648 /* toucan_bleu.mp3 */,
+				0F9A992521B56551004A1648 /* tyran_pitangua.mp3 */,
+				0F9A992221B56551004A1648 /* tyranneau_des_palétuviers.mp3 */,
+				0F27D45B2195904D00D35040 /* little_bird.jpg */,
+				0F27D43021958FAB00D35040 /* paon.jpg */,
+				0F27D45A21958FD400D35040 /* Img */,
 				0F53364F2190F8FB003E8E11 /* paon.mp3 */,
 				0FAD9D8D219357AE00F11972 /* little_bird.mp3 */,
 				0FAD9D642193579D00F11972 /* Sounds */,
@@ -758,6 +1002,9 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				01FC25AC269043739EDC6864 /* Resources */,
 				0F5335C02190EE61003E8E11 /* Recovered References */,
+				5AEB2BCD45B5421B91187BB3 /* AppCenter-Config.plist */,
+				0F9A9A7C21B56BD5004A1648 /* Bird_Sound_App-Bridging-Header.h */,
+				8CA4A51A3AFB88161A218705 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -773,6 +1020,15 @@
 				2D02E4901E0B4A5D006451C7 /* Bird_Sound_App-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8CA4A51A3AFB88161A218705 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B154124D9169A1B8A2A87F90 /* Pods-Bird_Sound_App.debug.xcconfig */,
+				84AA319AD128BDDE123D8F1C /* Pods-Bird_Sound_App.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		ADBDB9201DFEBF0600ED6528 /* Products */ = {
@@ -809,6 +1065,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Bird_Sound_App" */;
 			buildPhases = (
+				8B4FF790EFCECE63C0CF8B70 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
@@ -872,6 +1129,9 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1010;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -895,6 +1155,18 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 0F9A99A821B569DA004A1648 /* Products */;
+					ProjectRef = D8D0FEC2BB2547219E5B4A32 /* AppCenterReactNative.xcodeproj */;
+				},
+				{
+					ProductGroup = 0F9A99E521B569EA004A1648 /* Products */;
+					ProjectRef = 0AD1C69FD9864369BDF34632 /* AppCenterReactNativeAnalytics.xcodeproj */;
+				},
+				{
+					ProductGroup = 0F9A99FA21B569FC004A1648 /* Products */;
+					ProjectRef = 1B203877FD3442E89A597394 /* AppCenterReactNativeCrashes.xcodeproj */;
+				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
@@ -946,6 +1218,10 @@
 				{
 					ProductGroup = 0F5336482190F718003E8E11 /* Products */;
 					ProjectRef = 0F5336472190F718003E8E11 /* RNSound.xcodeproj */;
+				},
+				{
+					ProductGroup = 0F9A9A6521B56ACF004A1648 /* Products */;
+					ProjectRef = 13DE9FBB9B1C4FBFB8633067 /* RNSoundPlayer.xcodeproj */;
 				},
 				{
 					ProductGroup = 0F5335E62190EE62003E8E11 /* Products */;
@@ -1017,6 +1293,34 @@
 			fileType = archive.ar;
 			path = libRNSound.a;
 			remoteRef = 0F53364B2190F718003E8E11 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0F9A99AC21B569DA004A1648 /* libAppCenterReactNative.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNative.a;
+			remoteRef = 0F9A99AB21B569DA004A1648 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0F9A99E921B569EA004A1648 /* libAppCenterReactNativeAnalytics.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNativeAnalytics.a;
+			remoteRef = 0F9A99E821B569EA004A1648 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0F9A9A0021B569FC004A1648 /* libAppCenterReactNativeCrashes.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNativeCrashes.a;
+			remoteRef = 0F9A99FF21B569FC004A1648 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0F9A9A6921B56ACF004A1648 /* libRNSoundPlayer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNSoundPlayer.a;
+			remoteRef = 0F9A9A6821B56ACF004A1648 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		139105C11AF99BAD00B5F7CC /* libRCTSettings.a */ = {
@@ -1257,40 +1561,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F9A992F21B56553004A1648 /* courlis_a_long_bec.mp3 in Resources */,
+				0F9A995E21B56560004A1648 /* souimanga_à_gorge_rouge.jpg in Resources */,
+				0F9A994221B56553004A1648 /* rale_des_genets.mp3 in Resources */,
+				0F9A996C21B56560004A1648 /* alouette_hausse_col.jpg in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				8F0E4EE2FA204487A929F1B5 /* AntDesign.ttf in Resources */,
+				0F9A997021B56560004A1648 /* pigeon_roussard.jpg in Resources */,
+				0F9A996021B56560004A1648 /* toucan_bleu.jpg in Resources */,
+				0F9A994121B56553004A1648 /* œdicneme_vermicule.mp3 in Resources */,
 				0F5336062190EF08003E8E11 /* FontAwesome5_Solid.ttf in Resources */,
+				0F9A993E21B56553004A1648 /* grue_de_paradis.mp3 in Resources */,
+				0F9A996A21B56560004A1648 /* œdicnème_vermiculé.jpg in Resources */,
 				FA3183C293604722A8C2FE52 /* Entypo.ttf in Resources */,
 				303B41754CDF4902A9BA607E /* EvilIcons.ttf in Resources */,
+				0F9A993821B56553004A1648 /* epervier_brun.mp3 in Resources */,
+				0F9A993B21B56553004A1648 /* gonolek_boubou.mp3 in Resources */,
+				0F9A993521B56553004A1648 /* timalie_aux_yeux_d_or.mp3 in Resources */,
+				0F9A993721B56553004A1648 /* heron_strie.mp3 in Resources */,
 				0F5336072190EF08003E8E11 /* FontAwesome5_Regular.ttf in Resources */,
+				0F9A995C21B56560004A1648 /* hirondelle_à_diadème.jpg in Resources */,
+				0F9A992E21B56553004A1648 /* barbican_a_collier.mp3 in Resources */,
+				0F9A996821B56560004A1648 /* eurylaime_à_capuchon.jpg in Resources */,
+				0F9A996321B56560004A1648 /* tyranneau_des_palétuviers.jpg in Resources */,
+				0F9A993921B56553004A1648 /* tyranneau_des_palétuviers.mp3 in Resources */,
 				5C468CC288B34021938DE3AB /* Feather.ttf in Resources */,
 				0F5336032190EF08003E8E11 /* AntDesign.ttf in Resources */,
+				0F9A993421B56553004A1648 /* colibri_de_loddiges.mp3 in Resources */,
+				0F9A996621B56560004A1648 /* râle_des_genêts.jpg in Resources */,
 				69BCE356AEC046BF84EDC38C /* FontAwesome.ttf in Resources */,
+				0F9A994321B56553004A1648 /* souimanga_a_ventre_blanc.mp3 in Resources */,
 				1D33E892F4694B2B9E776659 /* FontAwesome5_Brands.ttf in Resources */,
+				0F9A993021B56553004A1648 /* pigeon_roussard.mp3 in Resources */,
+				0F27D45921958FAC00D35040 /* paon.jpg in Resources */,
 				0F5336042190EF08003E8E11 /* Foundation.ttf in Resources */,
+				0F9A993A21B56553004A1648 /* pie_grieche_à_bandeau.mp3 in Resources */,
 				0F5336052190EF08003E8E11 /* Ionicons.ttf in Resources */,
 				0F53360A2190EF08003E8E11 /* EvilIcons.ttf in Resources */,
+				0F9A997121B56560004A1648 /* grue_de_paradis.jpg in Resources */,
+				0F9A993321B56553004A1648 /* souimanga_à_gorge_rouge.mp3 in Resources */,
 				CE02ABAA8F8F43F5B60D7D7D /* FontAwesome5_Regular.ttf in Resources */,
+				0F9A993621B56553004A1648 /* toucan_bleu.mp3 in Resources */,
+				0F9A995F21B56560004A1648 /* souimanga_à_ventre_blanc.jpg in Resources */,
 				5522B5654C3C431EA5083B94 /* FontAwesome5_Solid.ttf in Resources */,
 				0F5336092190EF08003E8E11 /* Zocial.ttf in Resources */,
 				0F5336082190EF08003E8E11 /* FontAwesome.ttf in Resources */,
 				0F5335FE2190EF08003E8E11 /* Octicons.ttf in Resources */,
 				7EE97A6B90AE47DC9CA1CDC0 /* Foundation.ttf in Resources */,
+				0F9A996121B56560004A1648 /* pie_grièche_à_bandeau.jpg in Resources */,
+				0F9A993121B56553004A1648 /* quiscale_rouilleux.mp3 in Resources */,
 				0F5336502190F8FB003E8E11 /* paon.mp3 in Resources */,
 				0F5336022190EF08003E8E11 /* MaterialCommunityIcons.ttf in Resources */,
+				0F9A996521B56560004A1648 /* pipit_d_amérique.jpg in Resources */,
+				0F9A993221B56553004A1648 /* alouette_hausse_col.mp3 in Resources */,
+				0F9A996F21B56560004A1648 /* quiscale_rouilleux.jpg in Resources */,
+				0F9A996B21B56560004A1648 /* cubla_boule_de_neige.jpg in Resources */,
 				0F5336012190EF08003E8E11 /* FontAwesome5_Brands.ttf in Resources */,
+				0F9A993C21B56553004A1648 /* tyran_pitangua.mp3 in Resources */,
+				0F9A996221B56560004A1648 /* colibri_de_loddiges.jpg in Resources */,
+				0F9A996421B56560004A1648 /* tyran_pitangua.jpg in Resources */,
+				0F9A995B21B56560004A1648 /* gonolek_boubou.jpg in Resources */,
+				0F9A996D21B56560004A1648 /* epervier_brun.jpg in Resources */,
+				0F27D45C2195904D00D35040 /* little_bird.jpg in Resources */,
+				0F9A996721B56560004A1648 /* timalie_aux_yeux_d_or.jpg in Resources */,
+				0F9A996921B56560004A1648 /* courlis_à_long_bec.jpg in Resources */,
 				EAF3D5D52CE04FA3A8469194 /* Ionicons.ttf in Resources */,
+				0F9A995D21B56560004A1648 /* barbican_à_collier.jpg in Resources */,
 				0F5336002190EF08003E8E11 /* Entypo.ttf in Resources */,
 				0F53360C2190EF08003E8E11 /* MaterialIcons.ttf in Resources */,
+				0F9A992D21B56553004A1648 /* eurylaime_a_capuchon.mp3 in Resources */,
+				0F9A996E21B56560004A1648 /* héron_strié.jpg in Resources */,
 				A23FA3CD798946DB86B296B5 /* MaterialCommunityIcons.ttf in Resources */,
 				0FAD9D8E219357AE00F11972 /* little_bird.mp3 in Resources */,
+				0F9A993D21B56553004A1648 /* hirondelle_a_diademe.mp3 in Resources */,
+				0F9A993F21B56553004A1648 /* cubla_boule_de_neige.mp3 in Resources */,
 				D7EEF2353CC34BEC9A94AFE2 /* MaterialIcons.ttf in Resources */,
 				0F53360B2190EF08003E8E11 /* SimpleLineIcons.ttf in Resources */,
+				0F9A994021B56553004A1648 /* pipit_d_amerique.mp3 in Resources */,
 				E67B3938DCA044EA86D63C0B /* Octicons.ttf in Resources */,
 				050E39B309B5470F9E7C7340 /* SimpleLineIcons.ttf in Resources */,
 				32DE7FCB8E0B4E5AA2241651 /* Zocial.ttf in Resources */,
 				0F5335FF2190EF08003E8E11 /* Feather.ttf in Resources */,
+				02B8F359F5694FEDAC791A05 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1339,6 +1692,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		8B4FF790EFCECE63C0CF8B70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bird_Sound_App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1416,12 +1791,20 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-sound-player/ios",
 				);
 				INFOPLIST_FILE = Bird_Sound_AppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1443,12 +1826,20 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-sound-player/ios",
 				);
 				INFOPLIST_FILE = Bird_Sound_AppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1464,13 +1855,19 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B154124D9169A1B8A2A87F90 /* Pods-Bird_Sound_App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-sound-player/ios",
 				);
 				INFOPLIST_FILE = Bird_Sound_App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1481,18 +1878,27 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Bird_Sound_App;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bird_Sound_App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84AA319AD128BDDE123D8F1C /* Pods-Bird_Sound_App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-sound-player/ios",
 				);
 				INFOPLIST_FILE = Bird_Sound_App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1503,6 +1909,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Bird_Sound_App;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bird_Sound_App-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1522,11 +1930,19 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-sound-player/ios",
 				);
 				INFOPLIST_FILE = "Bird_Sound_App-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1557,11 +1973,19 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-sound-player/ios",
 				);
 				INFOPLIST_FILE = "Bird_Sound_App-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1591,11 +2015,19 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-sound-player/ios",
 				);
 				INFOPLIST_FILE = "Bird_Sound_App-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1625,11 +2057,19 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-sound-player/ios",
 				);
 				INFOPLIST_FILE = "Bird_Sound_App-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);

@@ -1,9 +1,29 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, TouchableOpacity, Dimensions } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 var Sound = require('react-native-sound');
 Sound.setCategory('Playback');
+
+const deviceWidth = Dimensions.get("window").width;
+
+const styles = StyleSheet.create({
+  container : {
+    marginTop : 20,
+    marginBottom : 40,
+    paddingHorizontal: 80,
+    justifyContent : 'space-around',
+    flexDirection : 'row',
+    alignItems : 'center',
+    width: deviceWidth
+  },
+  iconShadow : {
+    shadowOffset:{  width: 2,  height: 5,  },
+    shadowColor: 'rgb(0, 0, 0)',
+    shadowOpacity: .2,
+    shadowRadius: 5,
+  }
+})
 
 export default class Player extends Component {
   constructor(props){
@@ -60,19 +80,3 @@ export default class Player extends Component {
     )
   }
 }
-
-const styles = StyleSheet.create({
-  container : {
-    marginTop : 40,
-    paddingHorizontal: 80,
-    justifyContent : 'space-around',
-    flexDirection : 'row',
-    alignItems : 'center'
-  },
-  iconShadow : {
-    shadowOffset:{  width: 2,  height: 5,  },
-    shadowColor: 'rgb(0, 0, 0)',
-    shadowOpacity: .2,
-    shadowRadius: 5,
-  }
-})

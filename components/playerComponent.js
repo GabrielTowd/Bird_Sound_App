@@ -4,6 +4,13 @@ import Header from './header';
 import Album from './album';
 import Player from './player';
 import data from '../assets/data/bird.json';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#ffffff',
+  },
+});
     
 export default class PlayerComponent extends Component {
   constructor(props){
@@ -12,6 +19,10 @@ export default class PlayerComponent extends Component {
       count : 0,
       paused: true
     };
+  }
+
+  togglePlay = () => {
+    this.setState({paused : !this.state.paused})
   }
 
   nextSound = () => {
@@ -23,15 +34,11 @@ export default class PlayerComponent extends Component {
   }
 
   previousSound = () => {
-    if(this.state.count + 1 < data.length){
-      this.setState({count : this.state.count + 1})
+    if(this.state.count - 1 < 0){
+      this.setState({count : data.length - 1})
     } else {
-      this.setState({count : 0})
+      this.setState({count : this.state.count - 1})
     }
-  }
-
-  togglePlay = () => {
-    this.setState({paused : !this.state.paused})
   }
 
   render() {
@@ -42,7 +49,7 @@ export default class PlayerComponent extends Component {
           birdLocation={data[this.state.count].location}
         />
         <Album 
-          url={data[this.state.count].image}
+          albumCover={data[this.state.count].image}
           nextSound={this.nextSound}
           previousSound={this.previousSound}
         />
@@ -58,10 +65,3 @@ export default class PlayerComponent extends Component {
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#ffffff',
-  },
-});

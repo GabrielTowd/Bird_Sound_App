@@ -1,14 +1,146 @@
 [
   {
+    "sound" : "alouette_hausse_col.mp3",
+    "image" : "alouette_hausse_col.jpg",
+    "name" : "Alouette Hausse Col",
+    "location" : "Nord équateur"
+  },
+  {
+    "sound" : "barbican_a_collier.mp3",
+    "image" : "barbican_à_collier.jpg",
+    "name" : "Barbican à collier",
+    "location" : "Sud de l'Afrique"
+  },
+  {
+    "sound" : "colibri_de_loddiges.mp3",
+    "image" : "colibri_de_loddiges.jpg",
+    "name" : "Colibri de Loddiges",
+    "location" : "Colombie"
+  },
+  {
+    "sound" : "courlis_a_long_bec.mp3",
+    "image" : "courlis_à_long_bec.jpg",
+    "name" : "Courlis à long bec",
+    "location" : "États-Unis"
+  },
+  {
+    "sound" : "cubla_boule_de_neige.mp3",
+    "image" : "cubla_boule_de_neige.jpg",
+    "name" : "Cubla boule de neige",
+    "location" : "Sud de l'Afrique"
+  },
+  {
+    "sound" : "epervier_brun.mp3",
+    "image" : "epervier_brun.jpg",
+    "name" : "Epervier brun",
+    "location" : "Amérique"
+  },
+  {
+    "sound" : "eurylaime_a_capuchon.mp3",
+    "image" : "eurylaime_à_capuchon.jpg",
+    "name" : "Eurylaime à capuchon",
+    "location" : "Philippines"
+  },
+  {
+    "sound" : "gonolek_boubou.mp3",
+    "image" : "gonolek_boubou.jpg",
+    "name" : "Gonolek boubou",
+    "location" : "Ouest de l'Afrique"
+  },
+  {
+    "sound" : "grue_de_paradis.mp3",
+    "image" : "grue_de_paradis.jpg",
+    "name" : "Grue de paradis",
+    "location" : "Afrique du sud"
+  },
+  {
+    "sound" : "heron_strie.mp3",
+    "image" : "héron_strié.jpg",
+    "name" : "Héron strié",
+    "location" : "Régions tropicales"
+  },
+  {
+    "sound" : "hirondelle_a_diademe.mp3",
+    "image" : "hirondelle_à_diadème.jpg",
+    "name" : "Hirondelle à diadème",
+    "location" : "Amérique du sud"
+  },
+  {
+    "sound" : "œdicneme_vermicule.mp3",
+    "image" : "œdicnème_vermiculé.jpg",
+    "name" : "Œicnème Vermiculé",
+    "location" : "Sud de l'Afrique"
+  },
+  {
     "sound" : "paon.mp3",
-    "image" : "https://i.ytimg.com/vi/7fj9aQDyItg/maxresdefault.jpg",
+    "image" : "paon.jpg",
     "name" : "Pavo cristatus",
     "location" : "Forêts d'Asie"
   },
   {
-    "sound" : "little_bird.mp3",
-    "image" : "https://assetsds.cdnedge.bluemix.net/sites/default/files/styles/big_6/public/news/images/a_little_bird2.jpg",
-    "name" : "Little bird",
-    "location" : "France"
+    "sound" : "pie_grieche_a_bandeau.mp3",
+    "image" : "pie_grièche_à_bandeau.jpg",
+    "name" : "Pie grièche à bandeau",
+    "location" : "Russie"
+  },
+  {
+    "sound" : "pigeon_roussard.mp3",
+    "image" : "pigeon_roussard.jpg",
+    "name" : "Pigeon roussard",
+    "location" : "Afrique subsaharienne"
+  },
+  {
+    "sound" : "pipit_d_amerique.mp3",
+    "image" : "pipit_d_amérique.jpg",
+    "name" : "Pipit d'amérique",
+    "location" : "Amérique du Nord"
+  },
+  {
+    "sound" : "quiscale_rouilleux.mp3",
+    "image" : "quiscale_rouilleux.jpg",
+    "name" : "Quiscale rouilleux",
+    "location" : "Amérique du Nord"
+  },
+  {
+    "sound" : "rale_des_genets.mp3",
+    "image" : "râle_des_genêts.jpg",
+    "name" : "Râle des genêts",
+    "location" : "Europe centrale"
+  },
+  {
+    "sound" : "souimanga_a_gorge_rouge.mp3",
+    "image" : "souimanga_à_gorge_rouge.jpg",
+    "name" : "Souimanga à gorge rouge",
+    "location" : "Philippines"
+  },
+  {
+    "sound" : "souimanga_a_ventre_blanc.mp3",
+    "image" : "souimanga_à_ventre_blanc.jpg",
+    "name" : "Souimanga à ventre blanc",
+    "location" : "Sud de l'Afrique"
+  },
+  {
+    "sound" : "timalie_aux_yeux_d_or.mp3",
+    "image" : "timalie_aux_yeux_d_or.jpg",
+    "name" : "Timalie aux yeux d'or",
+    "location" : "Chine"
+  },
+  {
+    "sound" : "toucan_bleu.mp3",
+    "image" : "toucan_bleu.jpg",
+    "name" : "Toucan bleu",
+    "location" : "Amérique du sud"
+  },
+  {
+    "sound" : "tyran_pitangua.mp3",
+    "image" : "tyran_pitangua.jpg",
+    "name" : "Tyran Pitangua",
+    "location" : "Amérique du sud"
+  },
+  {
+    "sound" : "tyranneau_des_paletuviers.mp3",
+    "image" : "tyranneau_des_palétuviers.jpg",
+    "name" : "Tyranneau des palétuviers",
+    "location" : "Brésil"
   }
 ]

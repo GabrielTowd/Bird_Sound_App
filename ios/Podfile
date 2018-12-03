@@ -1,0 +1,11 @@
+# Pods for AppCenter
+
+  platform :ios, '9.0'
+target 'Bird_Sound_App' do
+  pod 'AppCenter/Crashes', '~> 1.11.0'
+  pod 'AppCenter/Analytics', '~> 1.11.0'
+  pod 'AppCenterReactNativeShared', '~> 1.10.0'
+  pod 'AFNetworking', '~> 2.6'
+  pod 'ORStackView', '~> 3.0'
+  pod 'SwiftyJSON', '~> 2.3'
+end
